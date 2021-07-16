@@ -98,6 +98,13 @@ export default {
   height: 100px;
 }
 
+@media only screen and (max-width: 390px) {
+  .equal .span2 {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
 @media only screen and (min-width: 576px) {
   .equal .span2 {
     margin: 25px 10px;

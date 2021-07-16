@@ -7,7 +7,7 @@
         </b-col>
         <b-col sm="7" id="second-half">
           <Future v-if="defaultCity.consolidated_weather" :weatherList="defaultCity.consolidated_weather"/>
-          <Highlights />
+          <Highlights v-if="todayWeather" :today="todayWeather"/>
         </b-col>
       </b-row>
     </b-container>
