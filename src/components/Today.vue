@@ -83,6 +83,8 @@ export default {
     },
     searchCity() {
       const x = document.querySelector('#input-with-list').value
+      if(x == '') return
+      console.log(x)
       fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/search/?query=${x}`)
         .then(res => res.json())
         .then(res => {
@@ -106,6 +108,7 @@ export default {
     }
   },
   computed: {
+    ...mapState(['city']),
     weatherPicture() {
       let x = 'Clear'
       switch(this.weatherState || this.today.weather_state_name) {
@@ -141,8 +144,7 @@ export default {
           break;
       }
       return x
-    },
-    ...mapState(['city'])
+    }
   },
   watch: {
     city () {
@@ -216,5 +218,4 @@ img:first-child {
     width: 33%;
   }
 }
-
 </style>

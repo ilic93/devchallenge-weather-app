@@ -93,8 +93,7 @@ export default {
 
 <style>
 .highmain {
-  color: white; 
-  /* overflow: hidden; */
+  color: white;
 }
 
 .highhead {
@@ -127,6 +126,10 @@ export default {
 
 .highlights p {
   margin: 0.5rem 0;
+}
+
+.wind p {
+  margin-top: 25px;
 }
 
 .wind i {

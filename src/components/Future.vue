@@ -23,15 +23,6 @@ export default {
   },
   computed: {
     ...mapState(['city']),
-    // updatedList() {
-    //   let list = []
-    //   if(!this.city) {
-    //     list = [...this.city.consolidated_weather]
-    //   } else {
-    //     list = [...this.weatherList]
-    //   }
-    //   return list
-    // },
     futurePicture() {
       let x = 'Clear'
       let list2 = []
@@ -90,8 +81,6 @@ export default {
   border-radius: 10px; 
   position: relative;
 }
-
-/* .span2 .date {margin-bottom: 0;} */
 
 [alt="future-pic"] {
   width: 100px;
