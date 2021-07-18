@@ -31,7 +31,6 @@
 - [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -74,4 +73,4 @@ If you want forecast for other city, use search button to check if info about th
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/ilic93)
+- GitHub [@ilic93](https://github.com/ilic93)
