@@ -2,7 +2,7 @@
   <div>
 
     <b-col id="header"> 
-      <b-button class="btn-search" v-b-toggle href="#city-sidebar" @click.prevent >Toggle Sidebar</b-button>
+      <b-button class="btn-search" v-b-toggle href="#city-sidebar" @click.prevent >Search for places</b-button>
       <b-button class="btn-circle" @click="getLocation()">
         <i class="fas fa-search-location"></i>
       </b-button>

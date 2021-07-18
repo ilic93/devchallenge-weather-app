@@ -8,6 +8,9 @@
         <b-col sm="7" id="second-half">
           <Future v-if="defaultCity.consolidated_weather" :weatherList="defaultCity.consolidated_weather"/>
           <Highlights v-if="todayWeather" :today="todayWeather"/>
+          <footer>
+            <p>created by <a href="https://github.com/ilic93">ilic93</a> - devChallenges.io</p>
+          </footer>
         </b-col>
       </b-row>
     </b-container>
@@ -66,6 +69,14 @@ export default {
   padding-top: 20px;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+footer {
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 
